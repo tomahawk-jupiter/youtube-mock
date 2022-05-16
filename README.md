@@ -25,3 +25,9 @@ I also get the `Roboto` font from there. I think this is the font that YouTube u
 ## Favicon
 
 Put the favicon in the `webpack.config.js` in the `HtmlWebpackPlugin` plugin.
+
+## Hosting on GitHub Pages
+
+You can push the build folder to its own branch for hosing on GitHub pages. In this case the build folder is called `dist`.
+
+    $ git subtree push --prefix dist origin gh-pages
